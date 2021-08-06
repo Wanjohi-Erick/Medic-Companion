@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ReminderSchedule"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_reminder_schedule">
+
+    <TextView
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/wakeEdit"
+        android:onClick="openTimePicker"
+        android:background="@drawable/et_bg"
+        android:text="Wake Up Time"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_bg"
+        android:id="@+id/sleepEdit"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:text="Sleep Time"
+        android:onClick="openTimePicker1" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/loginbutton"
+        android:onClick="saveSleepTime"/>
+</LinearLayout>

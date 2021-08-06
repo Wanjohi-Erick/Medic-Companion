@@ -1,0 +1,102 @@
+<!--
+  ~ Copyright 2018 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--
+    <Preference
+        app:fragment="com.example.mediccompanion.Settings$MessagesFragment"
+        app:icon="@drawable/messages"
+        app:key="messages_header"
+        app:title="@string/messages_header" />
+
+    <Preference
+        app:fragment="com.example.mediccompanion.Settings$SyncFragment"
+        app:icon="@drawable/sync"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+
+    <Preference
+        app:icon="@drawable/ic_action_confirm"
+        app:key="confirm_header"
+        app:title="Confirm"
+        app:fragment="com.example.mediccompanion.Settings$ConfirmFragment"/>
+-->
+    <PreferenceCategory app:title="Medication Settings">
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$StockFragment"
+            app:title="Medication Stock"
+            app:key="stock_header" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Reminder Settings">
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$ScheduleFragment"
+            app:title="Reminder Schedule"
+            app:key="schedule_header" />
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$TypeFragment"
+            app:title="Reminder Type"
+            app:key="type_header" />
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$ToneFragment"
+            app:title="Reminder Tone"
+            app:key="tone_header" />
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$StockReminderFragment"
+            app:title="Stock Reminder"
+            app:key="stockReminder_header" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="General Settings">
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$PIFragment"
+            app:title="Personal Information"
+            app:key="pi_header" />
+
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$LocationFragment"
+            app:title="Location"
+            app:key="location_header" />
+
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$EmergencyContactsFragment"
+            app:title="Emergency Contacts"
+            app:key="contacts_header" />
+
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$LanguageFragment"
+            app:title="Language"
+            app:key="language_header" />
+
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$AppearanceFragment"
+            app:title="Appearance"
+            app:key="appearance_header" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Other">
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$TermsFragment"
+            app:title="Terms of Service"
+            app:key="terms_header" />
+        <Preference
+            app:fragment="com.example.mediccompanion.Settings$RestoreFragment"
+            app:title="Restore Defaults"
+            app:key="restore_header" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

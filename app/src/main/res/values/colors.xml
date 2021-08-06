@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="green">#008577</color>
+    <color name="babe">#6C90BA</color>
+    <color name="babe1">#b0040b</color>
+    <color name="grad_start">#f9d423</color>
+    <color name="grad_end">#ff4e50</color>
+    <color name="yellow">#A9d440 </color>
+    <color name="purple">#6e1a52</color>
+    <color name="grey">#999</color>
+    <color name="colorred">#ff3943</color>
+    <color name="colorreddark">#801b20</color>
+</resources>

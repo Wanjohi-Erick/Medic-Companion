@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_list">
+        <item>Medication Stock</item>
+
+        <item>Reminder Schedule</item>
+        <item>Reminder Tone</item>
+        <item>Reminder Type</item>
+        <item>Stock Reminder</item>
+
+        <item>Personal Information</item>
+        <item>Location</item>
+        <item>Emergency Contacts</item>
+        <item>Language</item>
+        <item>Appearance</item>
+
+        <item>Terms of Service</item>
+        <item>Restore Defaults</item>
+    </string-array>
+
+    <!--Medications preferences-->
+    <string-array name="meds">
+        <item>Medication 1</item>
+        <item>Medication 2</item>
+        <item>Medication 3</item>
+    </string-array>
+
+    <!--Medication types-->
+    <string-array name="medication_types">
+        <item>Type</item>
+        <item>Tablets</item>
+        <item>Capsules</item>
+        <item>Syrup</item>
+        <item>Ointment</item>
+    </string-array>
+</resources>

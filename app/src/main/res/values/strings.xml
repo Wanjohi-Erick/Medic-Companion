@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Medic Companion</string>
+    <string name="action_home">Home</string>
+    <string name="action_history">History</string>
+    <string name="action_help">Help</string>
+    <string name="action_settings">Medication Stock</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_history">History</string>
+    <string name="action_tipview">This is a medication tip</string>
+    <string name="action_recs">Today\'s Records</string>
+
+    <string-array name="action_tipview">
+        <item>This is a medication tip</item>
+    </string-array>
+
+    <string-array name="dailyrecs">
+        <item>rec 1</item>
+        <item>rec 2</item>
+        <item>rec 3</item>
+    </string-array>
+
+    <!--Personal information spinner items-->
+
+    <string-array name="Gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="allergies">
+        <item>Allergies</item>
+        <item>dust</item>
+        <item>dairy products</item>
+        <item>Red meat</item>
+        <item>Pollen</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Language</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>Dutch</item>
+        <item>German</item>
+        <item>Kiswahili</item>
+    </string-array>
+
+    <!--End of personal information spinner items-->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_pi">PI</string>
+    <string name="title_activity_settings_drawer">SettingsDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_set">Settings</string>
+    <string name="title_activity_take">Take Medication</string>
+    <string name="title_activity_stock">Medication Stock</string>
+    <string name="title_activity_medication1">Medication</string>
+    <string name="title_activity_medication_stock">MedicationStock</string>
+    <string name="title_activity_reminder_schedule">ReminderSchedule</string>
+    <string name="title_activity_medication1_view">Medication View</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_help">Help</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_medication">Medication</string>
+    <string name="title_activity_nav_med">NavMed</string>
+    <string name="no_meds_in_stock">No medication in stock</string>
+    <string name="confirm_dosage">Confirm dosage</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="intro_screen_tag_line">FOR ALL YOUR MEDICAL NEEDS</string>
+</resources>

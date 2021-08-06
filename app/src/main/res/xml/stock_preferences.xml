@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        app:key="signature"
+        app:title="@string/signature_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:defaultValue="reply"
+        app:entries="@array/reply_entries"
+        app:entryValues="@array/reply_values"
+        app:key="reply"
+        app:title="@string/reply_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory
+        app:title="Medication">
+        <PreferenceScreen
+            app:title="Medication 1"
+            app:key="med1">
+            <EditTextPreference
+                app:key="name"
+                app:title="@string/signature_title"
+                app:useSimpleSummaryProvider="true" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            app:title="Medication 2"
+            app:key="med2"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MedicationEdit"
+    tools:showIn="@layout/activity_medication">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin"
+        android:fontFamily="cursive"
+        android:padding="@dimen/padding"
+        android:text="Medication Input"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/drug_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:background="@drawable/edit_text_background"
+        android:hint="Drug name"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:hint="Quantity"
+        android:background="@drawable/edit_text_background"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/drug_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:background="@drawable/edit_text_background"
+        android:hint="Amount per dosage"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/number_of_dosages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:padding="@dimen/padding"
+        android:background="@drawable/edit_text_background"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Number of dosages daily"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/save_med_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center_horizontal"
+        android:text="Save"
+        android:onClick="onSave"/>
+
+</LinearLayout>
